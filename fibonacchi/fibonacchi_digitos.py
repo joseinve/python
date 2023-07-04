@@ -8,5 +8,6 @@ def fibonacci_d(c):
         else:
             f0 = fibonacci
             f1 = f0-f1
+
             fibonacci = f0+f1
     return fibonacci
